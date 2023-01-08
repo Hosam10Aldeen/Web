@@ -109,7 +109,7 @@ nav ul li a:hover {
 
 .social img {
     margin-right: 2rem;
-    width: 2.5rem;
+    width: 4.5rem;
     transition: 0.4s;
 
 }
@@ -126,4 +126,7 @@ nav ul li a:hover {
     align-items: center;
     size: 50%;
 
+}
+#text{
+    background-color:rgb(10, 10, 52) ;
 }
