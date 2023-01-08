@@ -51,7 +51,6 @@ nav {
     padding-top: 2.8rem;
     padding-left: var(--padding);
     padding-right: var(--padding);
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -60,6 +59,10 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     margin: 0.8rem 1.5rem;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 30px;
+
 }
 
 nav ul li a {
