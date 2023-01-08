@@ -127,15 +127,17 @@ nav ul li a:hover {
     size: 50%;
 
 }
-#text{
-    background-color:rgb(10, 10, 52) ;
+
+#text {
+    background-color: rgb(10, 10, 52);
 }
-#submit{
+
+#submit {
     width: 100px;
     height: 60px;
     padding-bottom: -200px;
     font-size: medium;
     position: relative;
-    background-color:rgb(10, 10, 52) ;
-    color: rgb(145, 48, 145) ;
+    background-color: rgb(10, 10, 52);
+    color: rgb(145, 48, 145);
 }
