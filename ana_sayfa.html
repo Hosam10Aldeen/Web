@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siber Dunya</title>
+    <title>Siber Dünya</title>
     <style>
         body {
             background-color: rgb(145, 48, 145);
@@ -50,15 +50,37 @@
             align-items: center;
 
         }
-        nav ul li{
+
+        nav ul li {
             list-style-type: none;
             display: inline-block;
             margin: 0.8rem 1.5rem;
         }
-        nav ul li a{
-            color:rgb(145, 48, 145) ;
+
+        nav ul li a {
+            color: rgb(145, 48, 145);
             text-decoration: none;
             background-color: rgb(10, 10, 52);
+            text-transform: capitalize;
+            transition: 0.4s;
+        }
+
+        nav ul li a:hover {
+            color: aquamarine;
+        }
+
+        .btn {
+            background-color: rgb(10, 10, 52);
+            color: aquamarine;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.81rem 1.87rem;
+            border-radius: 30px;
+        }
+
+        .btn:hover {
+            background-color: transparent;
+            border: 2px solid rgb(10, 10, 52);
         }
     </style>
 </head>
@@ -66,14 +88,14 @@
 <body>
     <section class="home" id="home">
         <nav>
-            <h1><span>Siber</span> Dunya</h1>
+            <h1><span>Siber</span> Dünya</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#home">Hakkimizda</a></li>
+                <li><a href="#home">Hakkımızda</a></li>
                 <li><a href="#home">iletisim</a></li>
-                <li><a href="#home">Resimler</a></li>
+                <li><a href="#home">Kusralarımız</a></li>
             </ul>
-
+            <a href="#" class="btn">Kayıt Ol</a>
         </nav>
     </section>
 
