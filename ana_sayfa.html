@@ -8,8 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siber Dünya</title>
     <style>
-        body {
-            background-color: rgb(145, 48, 145);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+            color: rgb(58, 178, 218);
+            < !-- sil-->
+        }
+
+        home {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            < !-- sil-->
         }
 
         h1 {
@@ -19,22 +36,6 @@
             letter-spacing: 0.12rem;
             cursor: pointer;
             padding-left: 2rem;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            font-size: 16px;
-
-        }
-
-        home {
-            width: 100%;
-            height: 100vh;
         }
 
         span {
@@ -48,6 +49,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            
 
         }
 
@@ -76,11 +78,18 @@
             font-weight: bold;
             padding: 0.81rem 1.87rem;
             border-radius: 30px;
+            border: 2px solid rgb(10, 10, 52);
+            transition: 0.4s;
         }
 
         .btn:hover {
             background-color: transparent;
             border: 2px solid rgb(10, 10, 52);
+        }
+
+        .icerik {
+            background-color: rgb(41, 25, 38);
+            flex-grow: 1;
         }
     </style>
 </head>
@@ -91,14 +100,14 @@
             <h1><span>Siber</span> Dünya</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#home">Hakkımızda</a></li>
-                <li><a href="#home">iletisim</a></li>
                 <li><a href="#home">Kusralarımız</a></li>
+                <li><a href="#home">iletisim</a></li>
+                <li><a href="#home">Hakkımızda</a></li>
             </ul>
             <a href="#" class="btn">Kayıt Ol</a>
         </nav>
+        <div class="icerik"></div>
     </section>
-
 </body>
 
 </html>
